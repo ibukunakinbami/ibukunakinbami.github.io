@@ -317,4 +317,31 @@ form{
         height: 100vh;
     }
 } */
-    
+
+@media screen and (min-width: 600px){
+    /* HOME SECTION */
+    #home{
+        display: flex;        
+        height: 100vh;
+        }
+    /* GALLERY SECTION */
+    #gallery{
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+    }    
+
+    #main-gallery{
+        display: flex; 
+        align-items: center; 
+        justify-content: center;                       
+    }
+
+    #main-gallery img {
+        width: 25%;
+        height: 45%; 
+        border-radius: 2%;
+        border: 1px solid white; 
+        box-shadow: 0 0 10px rgb(9, 9, 87);     
+    }      
+}
