@@ -8,6 +8,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 #main-container{
     width: 80%;
 
@@ -255,20 +256,22 @@ a {
 }
 
 form{
-    font-display: flex;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
     margin-bottom: 1%;
+    font-size: 1.5rem;
 }
 
 #fullname, #email, #phone{
     padding: 10px;
-    width: 30%;
+    width: 29%;
     margin: 1%;
     border: none;
 }
 
 #messagebox{
-    width: 32%;
+    width: 30%;
     border: none;
 }
 
@@ -294,3 +297,24 @@ form{
     color: white;
 }
 
+/* responsive */
+/* 
+@media screen and (max-width: 600px){
+    #home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    }
+
+    #home-left{
+        width: 100%;
+        height: 100vh;
+    }
+
+    #home-right{
+        width: 100%;
+        height: 100vh;
+    }
+} */
+    
