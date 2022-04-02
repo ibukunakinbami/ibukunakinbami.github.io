@@ -8,10 +8,12 @@ html {
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: white;
+}
 
 #main-container{
     width: 80%;
-
 }
 
 a {
@@ -185,7 +187,7 @@ a {
 #gallery {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(0, 0, 0, 0.2); */
     color: white;
     align-items: center;
     padding: 20px;
@@ -298,25 +300,6 @@ form{
 }
 
 /* responsive */
-/* 
-@media screen and (max-width: 600px){
-    #home{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    }
-
-    #home-left{
-        width: 100%;
-        height: 100vh;
-    }
-
-    #home-right{
-        width: 100%;
-        height: 100vh;
-    }
-} */
 
 @media screen and (min-width: 600px){
     /* HOME SECTION */
@@ -338,7 +321,7 @@ form{
     }
 
     #main-gallery img {
-        width: 25%;
+        width: 26.5%;
         height: 45%; 
         border-radius: 2%;
         border: 1px solid white; 
